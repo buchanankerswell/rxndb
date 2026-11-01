@@ -94,9 +94,11 @@ def test_ui_is_canonical_theme_without_plotly():
     assert "clipPath" in js and "data-tip" in js
     assert "Temperature:" in js and "Pressure:" in js and "Phases:" not in js
     assert "PLOT_LIMIT" not in js and "plot_note" not in js
-    assert "toggleHelp" in js and "initTheme" in js
-    css = client.get("/static/app.css").text
+    assert "toggleHelp" not in js and "wireDialog" in js and "initTheme" in js
+    css = client.get("/static/tokens.css").text
     assert "--link: #3b5cf6" in css and "--hairline" in css
+    dialogs_css = client.get("/static/dialogs.css").text
+    assert ".help-card" in dialogs_css
 
 
 def test_ui_tabs_share_filtering_with_animation():
