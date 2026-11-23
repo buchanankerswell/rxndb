@@ -1,9 +1,19 @@
 [default.extend-words]
-# Mineral symbols used in the reaction dataset
+# Mineral symbols and abbreviations used in the reaction dataset
 Fo = "Fo"
 fo = "fo"
 Mak = "Mak"
 mak = "mak"
+Hed = "Hed"
+hed = "hed"
+Tro = "Tro"
+tro = "tro"
+Wrk = "Wrk"
+wrk = "wrk"
+Caes = "Caes"
+caes = "caes"
+Margarite = "Margarite"
+margarite = "margarite"
 
 # Author surnames in the dataset
 Ono = "Ono"
