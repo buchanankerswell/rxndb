@@ -1,0 +1,11 @@
+[default.extend-words]
+# Mineral symbols used in the reaction dataset
+Fo = "Fo"
+fo = "fo"
+Mak = "Mak"
+mak = "mak"
+
+# Author surnames in the dataset
+Ono = "Ono"
+Wirth = "Wirth"
+Autio = "Autio"
